@@ -1,0 +1,19 @@
+[merge "mergepbx"]
+	name = Xcode project files merger
+	driver = mergepbx %O %A %B
+[user]
+	name = Ryomm
+	email = 
+[http]
+	proxy = 
+[https]
+	proxy = 
+[core]
+	commentChar = >
+[alias]
+	tree = log --graph --all --format=\"%x09%C(cyan bold)%an%Creset%x09%C(yellow)%h%Creset %C(magenta reverse)%d%Creset %s\"
+[fetch]
+	prune = true
+[pull]
+	ff = only
+	rebase = false
