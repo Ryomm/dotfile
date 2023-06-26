@@ -21,3 +21,7 @@
   ln -s ~/dotfiles/.gitconfig ~
   ```
 
+4. Run the scripts
+  ```
+  ./setup_brew.sh
+  ```
