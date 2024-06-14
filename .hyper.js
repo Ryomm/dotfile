@@ -131,6 +131,22 @@ module.exports = {
         // set to true to preserve working directory when creating splits or tabs
         preserveCWD: true,
         // for advanced config flags please refer to https://hyper.is/#cfg
+	overlay: {
+		alwaysOnTop: false,
+      		animate: true,
+      		hasShadow: false,
+      		hideDock: false,
+      		hideOnBlur: false,
+      		hotkeys: ['Control+Space'],
+      		position: 'top',
+      		primaryDisplay: false,
+      		resizable: true,
+      		startAlone: true,
+      		startup: true,
+      		size: 1,
+      		tray: true,
+      		unique: true
+	},
     },
     // a list of plugins to fetch and install from npm
     // format: [@org/]project[#version]
@@ -146,7 +162,11 @@ module.exports = {
 	'hyper-search',
 	'hyper-pane',
 	'hyper-opacity',
-	'hyper-statusline'
+	'hyper-statusline',
+	'hyper-tabs-enhanced',
+	'hyperterm-overlay',
+	'hyperlinks',
+	'hyperline'
     ],
     // in development, you can create a directory under
     // `~/.hyper_plugins/local/` and include it here
